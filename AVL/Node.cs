@@ -4,8 +4,8 @@ using System.Text;
 
 namespace AVL
 {
-      
-    class Node<T> where T : IComparable<T> 
+
+    class Node<T> where T : IComparable<T>
     {
         public T Val { get; set; }
         public Node<T> LeftNode { get; set; }
